@@ -10,7 +10,7 @@ Authors@R:
 Description: Create a data frame where each row contains the summary statistics
     of one numeric column of the data frame summarised.  This is a demo R package
     based on based on datacamp.com course 'Developing R Packages' 
-    (https://learn.datacamp.com/courses/developing-r-packages)
+    (https://learn.datacamp.com/courses/developing-r-packages).
 URL: https://github.com/jmbo1190/datasummary
 BugReports: https://github.com/jmbo1190/datasummary/issues
 License: MIT + file LICENSE
@@ -23,7 +23,8 @@ Depends:
 Suggests: 
     knitr,
     rmarkdown,
-    testthat (>= 3.0.0)
+    testthat (>= 3.0.0),
+    tidyverse
 VignetteBuilder: knitr
 Imports: 
     dplyr,
