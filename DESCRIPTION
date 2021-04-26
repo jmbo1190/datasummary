@@ -1,5 +1,5 @@
 Package: datasummary
-Title: What the Package Does (One Line, Title Case)
+Title: Summarise all numeric columns of a data frame (demo package)
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Jean-Michel",
@@ -7,7 +7,12 @@ Authors@R:
            role = c("aut", "cre"),
            email = "Jean-Michel.Bodart@BusinessDecision.com",
            comment = c(ORCID = "0000-0002-9957-6653"))
-Description: What the package does (one paragraph).
+Description: Create a data frame where each row contains the summary statistics
+    of one numeric column of the data frame summarised.  This is a demo R package
+    based on based on datacamp.com course 'Developing R Packages' 
+    (https://learn.datacamp.com/courses/developing-r-packages)
+URL: https://github.com/jmbo1190/datasummary
+BugReports: https://github.com/jmbo1190/datasummary/issues
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
