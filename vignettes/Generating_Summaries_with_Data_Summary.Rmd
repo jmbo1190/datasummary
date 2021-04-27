@@ -17,3 +17,8 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(datasummary)
 ```
+# Summarize weather dataframe
+
+```{r weather}
+datasummary(weather)
+```
