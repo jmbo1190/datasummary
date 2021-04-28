@@ -1,5 +1,6 @@
 
-library(tidyverse)
+library(purrr)
+library(dplyr)
 test_that("data_summary() throws a warning when data contain NA values and na.rm=FALSE", {
 data_summary <- function(x, na.rm = TRUE){
 
