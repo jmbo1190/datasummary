@@ -19,8 +19,8 @@ library(datasummary)
 ```
 # Summarize weather dataframe
 
-`datasummary()` generates a dataframe where each row is the summary of a numerical column in the source data frame.
+`data_summary()` generates a dataframe where each row is the summary of a numerical column in the source data frame.
 
 ```{r weather}
-datasummary(weather)
+data_summary(weather)
 ```
