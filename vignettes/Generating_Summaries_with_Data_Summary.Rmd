@@ -17,3 +17,10 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(datasummary)
 ```
+# Summarize weather dataframe
+
+`data_summary()` generates a dataframe where each row is the summary of a numerical column in the source data frame.
+
+```{r weather}
+data_summary(weather)
+```

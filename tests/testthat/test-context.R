@@ -1,5 +1,6 @@
 
-library(tidyverse)    
+library(purrr)
+library(dplyr)
 
 data_summary <- function(x, na.rm = TRUE){
     if(!na.rm & any(is.na(x))){
